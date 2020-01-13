@@ -21,4 +21,11 @@ $(document).ready(function() {
                         $("#contacts").append('<div class="contact"  onclick="location.href=\''+link+'\'"> <div class="avatar"> </div> <div class="name">' + name + surname + '</div> <div class="'+ class1 + '">  <img src="'+ imgsrc + '" class="'+ class2 + '"> </div> </div>');
                     });
                 });
+
+                $("#settings").click(function(){
+                    var user = window.location.search.substring(1);
+                    window.open("ustawienia.html?" + user,"_self");
+                    //alert(query);
+                });
+
             });

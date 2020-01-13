@@ -8,7 +8,7 @@ $(document).ready(function(){
         $.ajax({
               type: "POST",
               //UWAGA NA URL!!
-              url: "https://bikolapka.000webhostapp.com/login_check.php",
+              url: "http://localhost/bikol/login_check.php",
               data: dataString,
               crossDomain: true,
               cache: false,
@@ -16,11 +16,10 @@ $(document).ready(function(){
                   $("#login-butt").val('Loguje...');
               },
               success: function(data) {
-                  if (data == "success") {
-                      alert("zalogowano");
-                      window.open("contacts.html","_self")
+                  if (data != "error") {
+                      window.open("contacts.html?" + data,"_self")
                   } 
-                  else if (data == "error") {
+                  else {
                       alert("error");
                   }
               }
