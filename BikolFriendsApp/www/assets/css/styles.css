@@ -16,12 +16,6 @@ html, body {
   height: 100%;
 }
 
-#ustawienia {
-  position: absolute;
-  display: table;
-  top: 10%;
-  left: 30%;
-}
 
 #login-form {
   width: 70%;
@@ -79,6 +73,7 @@ ul {
 }
 
 .form-control.login-input {
+  
   margin: 0 auto;
 }
 
@@ -231,9 +226,7 @@ ul {
   max-height: 100%;
 }
 
-.utitle {
-  position: relative;
-}
+
 
 .pasek-u {
   max-width: 50%;
@@ -247,9 +240,7 @@ ul {
   margin-top: 2%;
 }
 
-.uitems {
-  margin-top: 2%;
-}
+
 
 .img-rest {
   max-width: 10%;
@@ -274,4 +265,98 @@ ul {
   margin-left: 6%;
   color: white;
   font-size: 200%;
+}
+
+#container_screen{
+  width:100%;
+  height: 100%;
+
+}
+
+#settings_homescreen{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#header_settings{
+  width:100%;
+  height:11.5%;
+  background-size: 100%;
+  background-image: url("BikolFriendsApp/www/assets/img/pasek_ustawienia.png");
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+#header_label{
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+  margin-right: 30%;
+  margin-top: 1%;
+}
+
+#return{
+  height:100%;
+  width:15%;
+}
+
+#back_emote{
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 50%;
+  margin-left: 20%;
+}
+
+#return{
+  display: inline;
+}
+
+.settings_option{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  border-color: white;
+  border-style: solid;
+}
+
+#settings_screen{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#obrazek{
+  max-width: 100%;
+  max-height: 90%;
+  margin-left: 3%;
+  margin-top:2.5%
+}
+
+#napis{
+  color: white;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+
+
+
+.utitle {
+  position: relative;
+}
+
+.uitems {
+  margin-top: 2%;
+}
+
+#pasek-u{
+  height: 20px;
 }
