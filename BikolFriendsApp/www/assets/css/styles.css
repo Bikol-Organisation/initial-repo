@@ -307,12 +307,14 @@ ul {
 #back_emote{
   max-width: 50%;
   max-height: 50%;
-  margin-top: 50%;
+  margin-top: 25%;
   margin-left: 20%;
 }
 
-#return{
+#wroc{
   display: inline;
+  height: 100%;
+  width: 20%;
 }
 
 .settings_option{
@@ -344,6 +346,13 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+}
+
+#ustawienia_napis{
+  color:red;
+  font-size: 45px;
+  margin-left: 8%;
+  margin-top: 2%;
 }
 
 
