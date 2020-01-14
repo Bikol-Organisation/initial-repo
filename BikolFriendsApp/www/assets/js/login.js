@@ -16,11 +16,11 @@ $(document).ready(function(){
                   $("#login-butt").val('Loguje...');
               },
               success: function(data) {
-                  if (data == "success") {
-                      window.open("ustawienia.html","_self")
+                  if (data != "error") {
+                      window.open("ustawienia.html?" + data,"_self")
                   } 
-                  else if (data == "error") {
-                      alert("Blad logowania!");
+                  else {
+                      alert("error");
                   }
               }
         });

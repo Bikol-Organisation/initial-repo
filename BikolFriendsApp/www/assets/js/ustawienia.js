@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     $("#wroc").click(function(){
         var user = window.location.search.substring(1);
-        window.open("login.html","_self");
+        window.open("index.html","_self");
         //alert(query);
     });
 
