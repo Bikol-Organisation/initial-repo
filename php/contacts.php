@@ -8,13 +8,31 @@
 			$availability = $row->availability;
 			$date = date('H:i');
 			$time = explode(" ",$availability);
-			if($time[0] < $date && $date < $time[2])
+			if($time[0] < $time[2])
 			{
-				$availability_ = true;
+				if($time[0] < $date && $date < $time[2])
+				{
+					$availability_ = true;
+				}
+				else
+				{
+					$availability_ = false;
+				}
+			}
+			else if($time[0] > $time[2])
+			{
+				if($time[0] > $date && $date > $time[2])
+				{
+					$availability_ = false;
+				}
+				else
+				{
+					$availability_ = true;
+				}
 			}
 			else
 			{
-				$availability_ = false;
+				$availability_ = true;
 			}
 			$row->availability = $availability_;
 			$data[] = $row;
