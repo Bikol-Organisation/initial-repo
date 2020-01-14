@@ -1,18 +1,18 @@
 $(document).ready(function(){
   $("#login-button").click(function(){
       
-      var empty = false;
-      $('input[type="text"]').each(function(){
-            if($(this).val()==""){
-                empty = true;
-                return false;
-            }
-      });
+      // var empty = false;
+      // $('input[type="text"]').each(function(){
+      //       if($(this).val()==""){
+      //           empty = true;
+      //           return false;
+      //       }
+      // });
       
-      if(empty){
-          alert("Fill every field!");
-          return false;
-      }
+      // if(empty){
+      //     alert("Fill every field!");
+      //     return false;
+      // }
       
       var phoneNumber = $("#phonenumber").val();
       phoneNumber.replace(/\s+/g, '');
@@ -74,22 +74,27 @@ $(document).ready(function(){
                 }else{
                   // godziny nie sa git
                   alert("Zły format godzin dostępności! Przykładowy poprawny format: 16:00 - 18:00. Pamiętaj o spacjach przy myślniku.");
+                  return false;
                 }
               }else{
                 // hasła nie są git
                 alert("Hasła są różne!");
+                return false;
               }
             }else{
               // imie i nazwisko nie jest git
-              alert("Zły format imienia i nazwiska! Możesz używać tylko wielkich i małych liter.")
+              alert("Zły format imienia i nazwiska! Możesz używać tylko wielkich i małych liter.");
+              return false;
             }
           }else{
             // numer nie jest git
-            alert("Zły format numeru! Podaj numer w postaci minimum 9 cyfr.")
+            alert("Zły format numeru! Podaj numer w postaci minimum 9 cyfr.");
+            return false;
           }
         }else{
           // jedno lub więcej pole jest puste
           alert("Pola nie mogą być puste!");
+          return false;
         }     
   });
 });
