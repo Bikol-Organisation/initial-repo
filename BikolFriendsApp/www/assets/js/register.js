@@ -10,7 +10,7 @@ $(document).ready(function(){
       });
       
       if(empty){
-          alert("Uzupelnij kazde pole!");
+          alert("Fill every field!");
           return false;
       }
       
@@ -40,10 +40,10 @@ $(document).ready(function(){
         // numer jest git
         if(password.length == 0 || passwordConfirm.length == 0){
           // puste hasło
-          alert("Haslo jest puste!");
+          alert("Password is empty!");
         }else if(password != passwordConfirm){
           // różne hasła
-          alert("Hasla nie zgadzaja sie!")
+          alert("Passwords don't match")
         }else{
           // hasła są git
           if(availability.match(correctAvailRegex)){
@@ -61,23 +61,22 @@ $(document).ready(function(){
                 },
                 success: function(data) {
                     if (data == "success") {
-                        alert("Sukces!");
+                        alert("inserted");
                         $("#login-button").val('Zatwierdź');
-                        window.open("index.html","_self")
                     } 
                     else if (data == "error") {
-                          alert("Blad!");
+                          alert("error");
                     }
                 }
           });
           }else{
             // godziny nie są git
-            alert("Zla dostepnosc format (przyklad: 16:00 - 20:00");
+            alert("Wrong availability format (example: 16:00 - 20:00");
           }     
         }
       }else{
         // numer jest źle
-        alert("Zle wpisany numer!");
+        alert("Wrong number format");
       }     
   });
 });

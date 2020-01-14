@@ -16,11 +16,10 @@ $(document).ready(function(){
                   $("#login-butt").val('Loguje...');
               },
               success: function(data) {
-                  if (data == "success") {
-                      alert("zalogowano");
-                      window.open("contacts.html","_self")
+                  if (data != "error") {
+                      window.open("ustawienia.html?" + data,"_self")
                   } 
-                  else if (data == "error") {
+                  else {
                       alert("error");
                   }
               }

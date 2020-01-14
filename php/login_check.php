@@ -13,7 +13,7 @@
     // tylko jeden wynik z podzapytania
 		
     if($count == 1) {
-        echo "success";
+        echo $myusername;
     }else {
         echo "error";
     }
