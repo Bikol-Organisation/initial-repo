@@ -182,6 +182,7 @@ ul {
   border-radius: 15px;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .contact:hover{

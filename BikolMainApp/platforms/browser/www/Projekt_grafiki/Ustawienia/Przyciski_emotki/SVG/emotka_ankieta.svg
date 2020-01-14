@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="182.88mm" height="325.12mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 18288 32512"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:white;stroke-width:84.66}
+    .str0 {stroke:white;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2855740412672">
+   <polygon class="fil0 str0" points="1370,15481 2071,15481 2071,16182 1370,16182 "/>
+   <polygon class="fil0 str0" points="1370,16401 2071,16401 2071,17102 1370,17102 "/>
+   <polygon class="fil0 str0" points="2290,15481 3910,15481 3910,16182 2290,16182 "/>
+   <polygon class="fil0 str0" points="1370,17321 2071,17321 2071,18021 1370,18021 "/>
+   <polygon class="fil0 str0" points="2290,16401 3910,16401 3910,17102 2290,17102 "/>
+   <polygon class="fil0 str0" points="2290,17321 3910,17321 3910,18021 2290,18021 "/>
+   <line class="fil0 str1" x1="1545" y1="15656" x2="1895" y2= "16007" />
+   <polygon class="fil0 str0" points="1370,15481 2071,15481 2071,16182 1370,16182 "/>
+   <line class="fil0 str1" x1="1895" y1="15656" x2="1545" y2= "16007" />
+   <line class="fil0 str1" x1="1545" y1="17496" x2="1895" y2= "17846" />
+   <line class="fil0 str1" x1="1895" y1="17496" x2="1545" y2= "17846" />
+  </g>
+ </g>
+</svg>

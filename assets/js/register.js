@@ -1,13 +1,32 @@
 $(document).ready(function(){
-  $("#login-button").click(function(){    
+  $("#login-button").click(function(){
+      
+      var empty = false;
+      $('input[type="text"]').each(function(){
+            if($(this).val()==""){
+                empty = true;
+                return false;
+            }
+      });
+      
+      if(empty){
+          alert("Fill every field!");
+          return false;
+      }
+      
       var phoneNumber = $("#phonenumber").val();
       phoneNumber.replace(/\s+/g, '');
       phoneNumber.replace('+','');
       
       var fullName = $("#userfullname").val();
       var spl = fullName.split(" ");
+      if (spl.length < 2) {
+          alert('Podaj imię oraz nazwisko po spacji');
+          return false;
+      }
       var firstName = spl[0];
       var lastName = spl[1];
+      
       var username = $("#username").val();
       var password = $("#password").val();
       var passwordConfirm = $("#password_confirm").val();

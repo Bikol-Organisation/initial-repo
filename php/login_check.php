@@ -4,7 +4,6 @@
     $myusername = $_POST['username'];
     $mypassword = $_POST['password'];
 
-    //ZMIENIC admin NA contacts!!!!!!!
     $sql = "SELECT nick FROM contacts WHERE nick = '$myusername' and password = '$mypassword'";
     $result = mysqli_query($con,$sql);
     $row = mysqli_fetch_array($result);
@@ -14,7 +13,7 @@
     // tylko jeden wynik z podzapytania
 		
     if($count == 1) {
-        echo "success";
+        echo $myusername;
     }else {
         echo "error";
     }

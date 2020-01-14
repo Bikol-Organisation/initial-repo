@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="182.88mm" height="325.12mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 18288 32512"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:white;stroke-width:67.73}
+    .fil0 {fill:none}
+    .fil2 {fill:white}
+    .fil1 {fill:white;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="928" cy="31564" r="508"/>
+  <path class="fil1" d="M1250 31604c0,89 -36,170 -95,228 -58,58 -138,94 -227,94 -89,0 -169,-36 -227,-94 -59,-58 -95,-139 -95,-228l59 0c0,73 29,139 77,187 47,47 113,77 186,77 73,0 139,-30 186,-77 48,-48 78,-114 78,-187l58 0z"/>
+  <circle class="fil2" cx="747" cy="31421" r="51"/>
+  <circle class="fil2" cx="1114" cy="31421" r="51"/>
+ </g>
+</svg>

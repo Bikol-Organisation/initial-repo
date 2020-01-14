@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="182.88mm" height="325.12mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 18288 32512"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:black;stroke-width:84.66;stroke-linecap:round}
+    .str0 {stroke:black;stroke-width:84.66;stroke-linecap:round;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil0 {fill:black}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M15567 31259c0,0 -12,-152 163,-152 175,0 164,152 164,152l11 375c0,0 -39,102 -176,102 -137,0 -162,-102 -162,-102l0 -375z"/>
+  <path class="fil1 str0" d="M15480 31559c0,0 12,313 262,313 250,0 250,-313 250,-313"/>
+  <line class="fil1 str1" x1="15742" y1="31872" x2="15742" y2= "32034" />
+ </g>
+</svg>
