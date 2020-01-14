@@ -36,7 +36,7 @@ $(document).ready(function(){
                     }
               });
               }else{
-                alert("Zly format godzin (przyklad: 16:00 - 20:00");
+                alert("Zly format godzin (przyklad: 16:00 - 20:00)");
               }      
     });
   });
