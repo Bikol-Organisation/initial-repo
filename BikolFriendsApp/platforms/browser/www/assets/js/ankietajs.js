@@ -17,7 +17,7 @@ $(document).ready(function(){
               dataString = "&username=" + username + "&availability=" + availability + "&update=";           
               $.ajax({
                     type: "POST",
-                    url: "https://bikolapka.000webhostapp.com/ankietaphp.php", //https://bikolapka.000webhostapp.com/insert.php
+                    url: "http://localhost/bikol/ankietaphp.php", //https://bikolapka.000webhostapp.com/insert.php
                     data: dataString,
                     crossDomain: true,
                     cache: false,

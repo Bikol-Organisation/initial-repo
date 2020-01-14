@@ -12,7 +12,7 @@ $(document).ready(function(){
 	  }
       $.ajax({
             type: "POST",
-            url: "https://bikolapka.000webhostapp.com/kontophp.php",
+            url: "http://localhost/bikol/kontophp.php",
             data: dataString,
             crossDomain: true,
             cache: false,
